@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: reifer-java-cloudant
+  host: reifer-java-cloudant
+  disk_quota: 1024M
+  services:
+  - reifer-java-cloudant-cloudantNoSQLDB
